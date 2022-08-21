@@ -30,10 +30,25 @@
 .nav-ul {
   display: inline-flex;
   margin: 0;
+  padding: 0;
 }
-.nav-li {
-  margin: 0 40px;
-  display: block;
+@media print, screen and (min-width: 768px) {
+  .nav-li {
+    margin: 0 40px;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-li {
+    margin: 0 20px;
+    display: block;
+  }
+  .nav-li:first-child {
+    margin-left: 0;
+  }
+  .nav-li:last-child {
+    margin-right: 0;
+  }
 }
 .nav-li a {
   font-family: Arial;
