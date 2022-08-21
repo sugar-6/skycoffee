@@ -1,0 +1,15 @@
+$breakPointList: 767px, 768px;
+
+$mq: (
+  "sp": "screen and (max-width: #{nth($breakPointList, 1)})",
+  "pc": "print,screen and (min-width: #{nth($breakPointList, 2)})",
+) !default;
+
+//.hoge {
+//  @media #{map-get($mq, "sp")} {
+//    background: red;
+//  }
+//  @media #{map-get($mq, "pc")} {
+//    background: blue;
+//  }
+//}

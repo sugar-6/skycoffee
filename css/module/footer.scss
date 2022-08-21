@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: #000;
+  &-logo {
+    width: 180px;
+    height: 36px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  &-txt {
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    line-height: 12px;
+    text-align: center;
+    color: #8b8b8b;
+  }
+}
